@@ -2,6 +2,7 @@ package com.example.crist.chat;
 
 import android.content.Context;
 import android.content.IntentFilter;
+import android.content.SharedPreferences;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.support.v7.app.AppCompatActivity;
@@ -98,5 +99,4 @@ public class MainActivity extends AppCompatActivity {
             this.unregisterReceiver(receptor);
         }
     }
-
 }
